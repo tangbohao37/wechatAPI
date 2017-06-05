@@ -1,0 +1,8 @@
+[ 2017-04-16T13:04:47+08:00 ] 127.0.0.1 /index.php/Home/Workinfo/workSubmit
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `resume` WHERE ( wid=1 and uid= ) LIMIT 1  
+
+[ 2017-04-16T13:16:48+08:00 ] 127.0.0.1 /index.php/home/user/register?code=051Qaow927NrzP0wA4u92dIAw92QaowH&state=123
+ERR: 1054:Unknown column 'oMpc_xDBkUN7pzj48PE16YBaWhKY' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `studentinfo` WHERE ( openid=oMpc_xDBkUN7pzj48PE16YBaWhKY ) LIMIT 1  
+

@@ -1,0 +1,66 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
+<html>
+<head>
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0"/>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	
+	<link rel="stylesheet" href="../Common/css/jquery.mobile.min.css" />
+	<link rel="stylesheet" href="../Common/css/theme.min.css" />
+	<!--<script src="../Common/js/jquery.min.js"></script>-->
+	<!--<script src="../Common/js/jquery.mobile.min.js"></script>-->
+	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+	<title>more information</title>
+</head>
+<style>
+.div1{
+width:90%;
+margin-left:auto;
+margin-right:auto;
+margin-top:20px;
+}
+.td1{
+width:30%;
+text-align:left;
+
+}
+
+</style>
+<body>
+	<div data-role="header" data-id="myHeader" data-position="fixed"  data-tap-toggle="false">
+	<h2>任职详细信息</h2>
+	</div>
+	<div class="div1">
+		<table class="table table-striped table-bordered table-hover">
+			<tr>
+				<td class="td1">任职时间:</td>
+				<td class="td2"><?php echo ($work["workstartdate"]); ?>~<?php echo ($work["workstopdate"]); ?></td>
+			</tr>
+			<tr>
+				<td class="td1">公司名称:</td>
+				<td class="td2"><?php echo ($company["cname"]); ?></td>
+			</tr>
+			<tr>
+				<td class="td1">公司地址:</td>
+				<td class="td2"><?php echo ($company["caddress"]); ?></td>
+			</tr>
+			<tr>
+				<td class="td1">工作内容:</td>
+				<td class="td2"><?php echo ($work["workinfo"]); ?></td>
+			</tr>
+			<tr>
+				<td class="td1">工作地点:</td>
+				<td class="td2"><?php echo ($work["address"]); ?></td>
+			</tr>
+			<tr>
+				<td class="td1">薪酬/天:</td>
+				<td class="td2"><?php echo ($work["salary"]); ?></td>
+			</tr>
+		</table>
+	</div>
+	<div class="div1">
+		<a href="#" onclick="javascript:history.back(-1)" type="button" class="btn btn-primary"><b>返回</b></a>
+	</div>
+
+</body>
+</html>

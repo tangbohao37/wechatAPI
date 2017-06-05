@@ -1,0 +1,24 @@
+[ 2017-05-05T21:11:54+08:00 ] 127.0.0.1 /index.php/home/worklist/index
+ERR: 无法加载控制器:Worklist
+
+[ 2017-05-05T21:12:09+08:00 ] 127.0.0.1 /index.php/home/workinfo/index
+ERR: 非法操作:index
+
+[ 2017-05-05T21:12:18+08:00 ] 127.0.0.1 /index.php/home/workinfo/worklist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `studentinfo` WHERE ( openid= ) LIMIT 1  
+
+[ 2017-05-05T21:13:59+08:00 ] 127.0.0.1 /index.php/home/workinfo/worklist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `studentinfo` WHERE ( openid= ) LIMIT 1  
+
+[ 2017-05-05T21:13:59+08:00 ] 127.0.0.1 /index.php/home/workinfo/index
+ERR: 非法操作:index
+
+[ 2017-05-05T21:14:00+08:00 ] 127.0.0.1 /index.php/home/worklist/index
+ERR: 无法加载控制器:Worklist
+
+[ 2017-05-05T21:45:58+08:00 ] 127.0.0.1 /index.php/home/workinfo/worklist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `studentinfo` WHERE ( openid= ) LIMIT 1  
+

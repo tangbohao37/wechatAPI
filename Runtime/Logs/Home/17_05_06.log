@@ -1,0 +1,24 @@
+[ 2017-05-06T11:42:01+08:00 ] 127.0.0.1 /index.php/home/index/index?signature=94f50aa332013410dae881eef2c7615103764c80&timestamp=1494042102&nonce=1529572434&openid=oMpc_xJAuL9_d10K2zDWsvh4DcC0
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `wid` FROM `resume` WHERE ( uid= ) 
+
+[ 2017-05-06T11:42:58+08:00 ] 127.0.0.1 /index.php/home/index/index?signature=26c99b4cebcb2bc3de77759a4187e0b108c1f582&timestamp=1494042149&nonce=249743965&openid=oMpc_xJAuL9_d10K2zDWsvh4DcC0
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `wid` FROM `resume` WHERE ( uid= ) 
+
+[ 2017-05-06T11:42:58+08:00 ] 127.0.0.1 /index.php/home/index/index?signature=26c99b4cebcb2bc3de77759a4187e0b108c1f582&timestamp=1494042149&nonce=249743965&openid=oMpc_xJAuL9_d10K2zDWsvh4DcC0
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `wid` FROM `resume` WHERE ( uid= ) 
+
+[ 2017-05-06T11:43:00+08:00 ] 127.0.0.1 /index.php/home/index/index?signature=71b6541892139e9cc36a3f09dd920c63ed084233&timestamp=1494042161&nonce=497286332&openid=oMpc_xJAuL9_d10K2zDWsvh4DcC0
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `wid` FROM `resume` WHERE ( uid= ) 
+
+[ 2017-05-06T11:44:19+08:00 ] 127.0.0.1 /index.php/home/index/index?signature=cf235f75363112ccaa5d12d2fd583e8d167a9d45&timestamp=1494042240&nonce=11523953&openid=oMpc_xJAuL9_d10K2zDWsvh4DcC0
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `wid` FROM `resume` WHERE ( uid= ) 
+
+[ 2017-05-06T11:45:18+08:00 ] 127.0.0.1 /index.php/home/index/index?signature=00dfa79dfce552610a0cf25c0dfb12a1a6ded052&timestamp=1494042300&nonce=939330089&openid=oMpc_xJAuL9_d10K2zDWsvh4DcC0
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `wid` FROM `resume` WHERE ( uid= ) 
+

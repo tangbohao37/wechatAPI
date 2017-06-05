@@ -1,0 +1,51 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2 class="sub-header">兼职1 人员评分</h2>
+    <div class="table-responsive">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>序号</th>
+                    <th>姓名</th>
+                    <th>性别</th>
+                    <th>就读院校</th>
+                    <th>联系方式</th>
+                    <th>大家评分</th>
+                    <th>所在区域</th>
+                    <th>给他评分</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1,001</td>
+                    <td>1,001</td>
+                    <td>Lorem</td>
+                    <td>ipsum</td>
+                    <td>dolor</td>
+                    <td>
+                        <i class="glyphicon glyphicon-star"></i>
+                        <i class="glyphicon glyphicon-star"></i>
+                        <i class="glyphicon glyphicon-star"></i>
+                        <i class="glyphicon glyphicon-star"></i>
+                        <i class="glyphicon glyphicon-star"></i>
+                    </td>
+                    <td>sit</td>
+                    <td>
+                        打分占位栏
+                    </td>
+                </tr>
+            </tbody>
+            <button type="button" class="btn pull-right btn-success">导出为execl</button>
+        </table>
+    </div>
+    <hr>
+</body>
+
+</html>

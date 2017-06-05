@@ -1,0 +1,335 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+boty{
+    font-family:"Helvetica Neue", "Hiragino Sans GB", "Segoe UI", "Microsoft Yahei", "微软雅黑", Tahoma, Arial, STHeiti, sans-serif;
+}
+input, label, select, option, textarea, button, fieldset, legend { font-family:Tahoma,sans-serif;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img , div ,p{
+    margin: 0;
+    padding: 0;
+}
+.navbar-default{
+    background-color: #cecece;
+    border-bottom:solid 1px #fff;
+}
+#txtLogin :hover{
+    cursor: pointer;
+}
+#myCarousel{
+	margin-top:50px;
+	}
+.banner img{
+    margin: 0 auto;
+}
+.media-body h4{
+    margin-top: 10px;
+}
+.txt{
+    background-color:#cecece;
+    padding: 50px 0 60px 0;
+}
+.txt2{
+    padding:20px 40px;
+    background-color:cadetblue;
+    text-align: center;
+}
+.txt2 img{
+    width: 45%;
+    height: 35%;
+} 
+.lesson {
+    background-color: rgba(0,0,0,0.5);
+}
+.lesson-box:hover img {
+        cursor: pointer;
+        width: 120%;
+        transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+    }
+.lesson-box:hover{ 
+    border:solid 1px #fff;
+    box-shadow: 1px 1px 5px #888888;
+}
+.lesson-box img{
+     -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.lesson-box{
+     -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2;
+    transition: 0.2;
+}
+.txt3{
+    text-align: center;
+    padding: 60px 0;
+    background-color: aqua;
+}
+.txt3 img{
+    width: 60%;
+    height: 70%;
+}
+.lesson{
+        margin: 0 auto;
+        padding:10px;
+}
+.box-bottom p{
+    font-size: 1.2em;
+    background-color: rgba(0,0,0,0.3);
+}
+
+footer{
+    padding-top: 50px;
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    text-align: center;
+    position:relative;
+    bottom: 0px;
+}
+footer h5{
+    padding: 30px 15%; 
+    font-size: 25px;    
+}
+footer p{
+    margin: auto;
+    line-height: 2;
+    padding: 10px 0;
+    color:aliceblue;
+}
+.bg{
+    background-image: url(../img/bg.gif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+
+
+/* 大屏幕 */
+@media (min-width: 980px) {
+    .txt-h2{
+        margin-top: 20px;
+        font-size: 35px;
+        color:darkviolet;
+        text-align: center;
+    }
+
+    .txt-p{
+        margin-top: 15px;
+        color: cadetblue;
+        font-size: 30px;
+        text-align: center;
+    }
+    .txt2 h3{
+        font-size: 33px;
+    }
+    .txt2 p{
+        font-size: 22px;
+    }
+    .txt3 h3{
+        font-size: 33px;
+    }
+    .txt3 p{
+        font-size: 22px;
+    }
+    .txt2-img{
+        float: right;
+    }
+    .txt2-txt{
+        float:left;
+    }
+    
+    .lesson-1 .lesson-2{
+            margin: 0 auto;
+}    
+    .lesson-box{
+        float: left;
+        margin-top: 15px;
+        margin-right: 20px;
+        width: 100%;
+        height: 160px;
+        overflow: hidden;
+        position: relative;
+}
+    .img-box{
+        overflow: hidden;
+}
+    .box-bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    }
+}
+ 
+/* 平板电脑和小屏电脑之间的分辨率 */
+@media (min-width: 768px) and (max-width: 979px) {
+    .txt-h2{
+        margin-top: 10px;
+        font-size: 30px;
+        color:darkviolet;
+        text-align: center;
+    }
+    .txt-p{
+        margin-top: 5px;
+        color: cadetblue;
+        font-size: 20px;
+        text-align: center;
+    }
+    .txt2 h3{
+        font-size: 27px;
+    }
+    .txt2 p{
+        font-size: 19px;
+    }
+    .txt3 h3{
+        font-size: 27px;
+    }
+    .txt3 p{
+        font-size: 19px;
+    }
+    .txt2-img{
+        float:right;
+    }
+    .txt2-txt{
+        float:left;
+    }
+    
+    .lesson-1 .lesson-2{
+            margin: 0 auto;
+}    
+    .lesson-box{
+        float: left;
+        margin-top: 15px;
+        margin-right: 20px;
+        width:260px;
+        height: 160px;
+        overflow: hidden;
+        position: relative;
+}
+    .img-box{
+        overflow: hidden;
+}
+    .box-bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+}
+ 
+/* 横向放置的手机和竖向放置的平板之间的分辨率 */
+@media (max-width: 767px) { 
+    .txt-h2{
+    margin-top: 10px;
+    font-size: 25px;
+    color:darkviolet;
+    text-align: center;
+    }
+    .txt-p{
+        margin-top: 5px;
+        color: cadetblue;
+        font-size: 18px;
+        text-align: center;
+}
+    .txt2 h3{
+        font-size: 25px;
+}
+    .txt2 p{
+        font-size: 18px;
+}
+    .txt3 h3{
+        font-size: 25px;
+}
+    .txt3 p{
+        font-size: 18px;
+}
+    
+    .lesson-1 .lesson-2{
+            margin: 0 auto;
+}  
+    .lesson-box{
+        float: left;
+        margin-top: 15px;
+        margin-left: 20px;
+        width:260px;
+        height: 160px;
+        overflow: hidden;
+        position: relative;
+}
+    .img-box{
+        overflow: hidden;
+}
+    .box-bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    }        
+}
+
+ 
+/* 横向放置的手机及分辨率更小的设备 */
+@media (max-width: 480px) {
+    .txt-h2{
+    margin-top: 10px;
+    font-size: 20px;
+    color:darkviolet;
+    text-align: center;
+    }
+    .txt-p{
+        margin-top: 5px;
+        color: cadetblue;
+        font-size: 12px;
+        text-align: center;
+} 
+    .txt2 h3{
+        font-size: 18px;
+}
+    .txt2 p{
+        font-size: 13px;
+}
+    .txt3 h3{
+        font-size: 18px;
+}
+    .txt3 p{
+        font-size: 13px;
+}
+    
+    .lesson-box{
+        float: left;
+        width:260px;
+        height: 160px;
+        margin-top: 15px;
+        margin-left:15%;
+        overflow: hidden;
+        position: relative;
+}
+    .img-box{
+        overflow: hidden;
+}
+    .box-bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    }    
+}
+

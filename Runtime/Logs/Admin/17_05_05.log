@@ -1,0 +1,2334 @@
+[ 2017-05-05T20:10:07+08:00 ] 127.0.0.1 /index.php/Admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2017-05-05T20:10:37+08:00 ] 127.0.0.1 /index.php/Admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2017-05-05T20:11:11+08:00 ] 127.0.0.1 /index.php/Admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002213s ]
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2017-05-05T20:13:40+08:00 ] 127.0.0.1 /index.php/Admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `login` WHERE ( userName='admin' and passWord='admin' ) LIMIT 1   [ RunTime:0.0205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2017-05-05T20:13:41+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2017-05-05T20:13:46+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0013s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0429s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0014s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0013s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and ischack=0 and r.umsg!='' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0013s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000392s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000514s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.191413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.191543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001761s ]
+
+[ 2017-05-05T20:14:34+08:00 ] 127.0.0.1 /index.php/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0016s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0018s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 and TO_DAYS(NOW()) - workStartDate < 0 )  [ RunTime:0.0780s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0014s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=1 and r.ischack=0 )  [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0013s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and r.ischack=0 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0013s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and r.ischack=0 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2017-05-05T20:14:36+08:00 ] 127.0.0.1 /index.php/Admin/Right/employed
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-05-05T20:14:37+08:00 ] 127.0.0.1 /index.php/Admin/Right/grade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2017-05-05T20:14:40+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0015s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2017-05-05T20:18:33+08:00 ] 127.0.0.1 /index.php/Admin/Right/alterIssue
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 122 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `issue` WHERE ( id=11  )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-05-05T20:18:34+08:00 ] 127.0.0.1 /index.php/Admin/Right/alterIssue
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 122 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `issue` WHERE ( id=11  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-05-05T20:18:39+08:00 ] 127.0.0.1 /index.php/Admin/Right/alterIssue
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 122 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `issue` WHERE ( id=2  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2017-05-05T20:19:05+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2017-05-05T20:19:07+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0019s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2017-05-05T20:19:28+08:00 ] 127.0.0.1 /index.php/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0016s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0012s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 and TO_DAYS(NOW()) - workStartDate < 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=1 and r.ischack=0 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and r.ischack=0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2017-05-05T20:19:30+08:00 ] 127.0.0.1 /index.php/Admin/Right/alterIssue
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 122 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `issue` WHERE ( id=1  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-05-05T20:22:19+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2017-05-05T20:22:22+08:00 ] 127.0.0.1 /index.php/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0018s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0017s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 and TO_DAYS(NOW()) - workStartDate < 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=1 and r.ischack=0 )  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and r.ischack=0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2017-05-05T20:22:36+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-05-05T20:22:39+08:00 ] 127.0.0.1 /index.php/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 and TO_DAYS(NOW()) - workStartDate < 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0007s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=1 and r.ischack=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and r.ischack=0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2017-05-05T20:22:49+08:00 ] 127.0.0.1 /index.php/Admin/Right/employed
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-05-05T20:22:51+08:00 ] 127.0.0.1 /index.php/Admin/Right/grade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-05-05T20:22:52+08:00 ] 127.0.0.1 /index.php/Admin/Right/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0007s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2017-05-05T20:22:54+08:00 ] 127.0.0.1 /index.php/Admin/Right/issue
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001817s ]
+
+[ 2017-05-05T20:22:55+08:00 ] 127.0.0.1 /index.php/Admin/Right/grade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2017-05-05T20:22:57+08:00 ] 127.0.0.1 /index.php/Admin/Right/issue
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-05-05T20:23:08+08:00 ] 127.0.0.1 /index.php/Admin/Right/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2017-05-05T20:23:09+08:00 ] 127.0.0.1 /index.php/Admin/Right/issue
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2017-05-05T20:23:16+08:00 ] 127.0.0.1 /index.php/Admin/Right/issue
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2017-05-05T20:24:13+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2017-05-05T20:24:16+08:00 ] 127.0.0.1 /index.php/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0016s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 and TO_DAYS(NOW()) - workStartDate < 0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=1 and r.ischack=0 )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=12 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and r.ischack=0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2017-05-05T20:24:18+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=12 and ischack=0 and r.umsg!='' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=12 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2017-05-05T20:24:27+08:00 ] 127.0.0.1 /index.php/Admin/Right/alterIssue
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 122 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `issue` WHERE ( id=12  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2017-05-05T20:30:15+08:00 ] 127.0.0.1 /index.php/Admin/Right/alterIssue
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 122 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `issue` WHERE ( id=13  )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2017-05-05T20:30:33+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2017-05-05T20:30:37+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-05-05T20:30:49+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2017-05-05T20:30:51+08:00 ] 127.0.0.1 /index.php/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 and TO_DAYS(NOW()) - workStartDate < 0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=1 and r.ischack=0 )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and r.ischack=0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2017-05-05T20:30:54+08:00 ] 127.0.0.1 /index.php/Admin/Right/alterIssue
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 122 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `issue` WHERE ( id=1  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2017-05-05T20:30:57+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0007s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2017-05-05T20:30:58+08:00 ] 127.0.0.1 /index.php/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 and TO_DAYS(NOW()) - workStartDate < 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=1 and r.ischack=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and r.ischack=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and r.ischack=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and r.ischack=0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2017-05-05T20:31:00+08:00 ] 127.0.0.1 /index.php/Admin/Right/employed
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-05-05T20:31:04+08:00 ] 127.0.0.1 /index.php/Admin/Right/grade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-05-05T20:31:06+08:00 ] 127.0.0.1 /index.php/Admin/Right/grade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-05-05T20:31:07+08:00 ] 127.0.0.1 /index.php/Admin/Right/grade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-05-05T20:31:07+08:00 ] 127.0.0.1 /index.php/Admin/Right/grade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-05-05T20:31:08+08:00 ] 127.0.0.1 /index.php/Admin/Right/grade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-05-05T20:31:08+08:00 ] 127.0.0.1 /index.php/Admin/Right/grade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-05-05T20:31:10+08:00 ] 127.0.0.1 /index.php/Admin/Right/employed
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-05-05T20:31:27+08:00 ] 127.0.0.1 /index.php/Admin/Right/issue
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001984s ]
+
+[ 2017-05-05T20:31:34+08:00 ] 127.0.0.1 /index.php/Admin/Right/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2017-05-05T20:31:35+08:00 ] 127.0.0.1 /index.php/Admin/Right/conpany
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-05-05T20:31:52+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2017-05-05T20:32:10+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2017-05-05T20:32:12+08:00 ] 127.0.0.1 /index.php/Admin/Right/employed
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-05-05T20:32:13+08:00 ] 127.0.0.1 /index.php/Admin/Right/issue
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2017-05-05T20:32:24+08:00 ] 127.0.0.1 /index.php/Admin/Right/fabu
+ERR: 1292:Incorrect date value: '' for column 'workStartDate' at row 1
+ [ SQL语句 ] : INSERT INTO `issue` (`title`,`workinfo`,`workStartDate`,`workStopDate`,`address`,`request`,`salary`,`num`,`contectperson`,`phone`,`cid`,`issuetime`) VALUES ('234','','','','','','0','0','','','1','2017-05-05')
+
+[ 2017-05-05T20:32:33+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2017-05-05T20:32:36+08:00 ] 127.0.0.1 /index.php/Admin/Right/employed
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-05-05T20:32:37+08:00 ] 127.0.0.1 /index.php/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 and TO_DAYS(NOW()) - workStartDate < 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=1 and r.ischack=0 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and r.ischack=0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2017-05-05T20:32:40+08:00 ] 127.0.0.1 /index.php/Admin/Right/issue
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2017-05-05T21:07:34+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2017-05-05T21:08:06+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001232s ]
+
+[ 2017-05-05T21:08:11+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2017-05-05T21:08:11+08:00 ] 127.0.0.1 /index.php/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 and TO_DAYS(NOW()) - workStartDate < 0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=1 and r.ischack=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and r.ischack=0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2017-05-05T21:08:12+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2017-05-05T21:08:38+08:00 ] 127.0.0.1 /index.php/Admin/Right/grade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-05-05T21:08:39+08:00 ] 127.0.0.1 /index.php/Admin/Right/employed
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-05-05T21:08:40+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2017-05-05T21:09:09+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2017-05-05T21:10:16+08:00 ] 127.0.0.1 /index.php/admin/index/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+ERR: 非法操作:Admin
+
+[ 2017-05-05T21:10:17+08:00 ] 127.0.0.1 /index.php/admin/index/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+ERR: 非法操作:Admin
+
+[ 2017-05-05T21:10:18+08:00 ] 127.0.0.1 /index.php/admin/index/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+ERR: 非法操作:Admin
+
+[ 2017-05-05T21:10:20+08:00 ] 127.0.0.1 /index.php/admin/index/Admin/Right/employed
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+ERR: 非法操作:Admin
+
+[ 2017-05-05T21:10:22+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-05-05T21:10:23+08:00 ] 127.0.0.1 /index.php/admin/index/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+ERR: 非法操作:Admin
+
+[ 2017-05-05T21:10:26+08:00 ] 127.0.0.1 /index.php/admin/index/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+ERR: 非法操作:Admin
+
+[ 2017-05-05T21:10:27+08:00 ] 127.0.0.1 /index.php/admin/index/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+ERR: 非法操作:Admin
+
+[ 2017-05-05T21:10:33+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-05-05T21:10:34+08:00 ] 127.0.0.1 /index.php/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 and TO_DAYS(NOW()) - workStartDate < 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=1 and r.ischack=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and r.ischack=0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2017-05-05T21:10:36+08:00 ] 127.0.0.1 /index.php/Admin/Right/grade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-05-05T21:10:38+08:00 ] 127.0.0.1 /index.php/Admin/Right/employed
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-05-05T21:10:54+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2017-05-05T21:10:56+08:00 ] 127.0.0.1 /index.php/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 and TO_DAYS(NOW()) - workStartDate < 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=1 and r.ischack=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and r.ischack=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and r.ischack=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and r.ischack=0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2017-05-05T21:11:37+08:00 ] 127.0.0.1 /index.php/Admin/Right/grade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-05-05T21:11:38+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2017-05-05T21:14:02+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2017-05-05T21:14:05+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2017-05-05T21:14:10+08:00 ] 127.0.0.1 /index.php/Admin/Right/grade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-05-05T21:14:11+08:00 ] 127.0.0.1 /index.php/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 and TO_DAYS(NOW()) - workStartDate < 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=1 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and r.ischack=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and r.ischack=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0007s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and r.ischack=0 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-05-05T21:30:26+08:00 ] 127.0.0.1 /index.php/Admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `login` WHERE ( userName='admin' and passWord='admin' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2017-05-05T21:30:27+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2017-05-05T21:30:45+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0007s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0007s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0007s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0009s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002936s ]
+
+[ 2017-05-05T21:31:35+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0008s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0008s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0008s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0009s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002557s ]
+
+[ 2017-05-05T21:31:37+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2017-05-05T21:31:39+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2017-05-05T21:32:39+08:00 ] 127.0.0.1 /index.php/Admin/Right/alterIssue
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 122 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `issue` WHERE ( id=11  )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2017-05-05T21:32:57+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-05-05T21:33:02+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and ischack=0 and r.umsg!='' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-05-05T21:33:33+08:00 ] 127.0.0.1 /index.php/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 and TO_DAYS(NOW()) - workStartDate < 0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0008s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=1 and r.ischack=0 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0009s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and r.ischack=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0007s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and r.ischack=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0007s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and r.ischack=0 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2017-05-05T21:34:02+08:00 ] 127.0.0.1 /index.php/Admin/Right/alterIssue
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 122 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `issue` WHERE ( id=1  )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-05-05T21:34:16+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2017-05-05T21:34:22+08:00 ] 127.0.0.1 /index.php/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 and TO_DAYS(NOW()) - workStartDate < 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=1 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and r.ischack=0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2017-05-05T21:34:29+08:00 ] 127.0.0.1 /index.php/Admin/Right/alterIssue
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 122 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `issue` WHERE ( id=2  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2017-05-05T21:34:37+08:00 ] 127.0.0.1 /index.php/Admin/Right/employed
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-05-05T21:34:56+08:00 ] 127.0.0.1 /index.php/Admin/Right/grade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-05-05T21:35:02+08:00 ] 127.0.0.1 /index.php/Admin/Right/issue
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2017-05-05T21:36:47+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2017-05-05T21:36:53+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0011s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0010s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0011s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=14 and ischack=0 and r.umsg!='' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0008s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=14 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002623s ]
+
+[ 2017-05-05T21:37:08+08:00 ] 127.0.0.1 /index.php/Admin/Right/table
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 and TO_DAYS(NOW()) - workStartDate < 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=1 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=2 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=11 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and r.ischack=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool,s.uphone,s.upoint,s.uaddress,r.wid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=14 and r.ischack=0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2017-05-05T21:37:23+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0007s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0009s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=14 and ischack=0 and r.umsg!='' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0008s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=14 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002117s ]
+
+[ 2017-05-05T21:37:40+08:00 ] 127.0.0.1 /index.php/Admin/Right/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=14 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=14 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2017-05-05T21:37:45+08:00 ] 127.0.0.1 /index.php/Admin/Right/conpany
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-05-05T21:38:03+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2017-05-05T21:39:40+08:00 ] 127.0.0.1 /index.php/Admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003504s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `login` WHERE ( userName='admin' and passWord='admin' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2017-05-05T21:39:40+08:00 ] 127.0.0.1 /index.php/Admin/Left/left
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-05-05T21:40:07+08:00 ] 127.0.0.1 /index.php/Admin/Right/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+NOTIC: [8] Use of undefined constant issue - assumed 'issue' D:\web\work\Admin\Controller\RightController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `issue` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`title`,`issuetime` FROM `issue` WHERE ( cid=1 ) ORDER BY issuetime desc LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant resume - assumed 'resume' D:\web\work\Admin\Controller\RightController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0005s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=13 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT r.umsg,s.uname,s.uid FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=14 and ischack=0 and r.umsg!='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `resume` [ RunTime:0.0004s ]
+SQL: SELECT s.usex,s.uname,s.uid,s.uschool FROM resume r INNER JOIN studentinfo s on s.uid = r.uid  WHERE ( r.wid=14 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+

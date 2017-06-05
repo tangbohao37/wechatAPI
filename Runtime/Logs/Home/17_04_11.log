@@ -1,0 +1,28 @@
+[ 2017-04-11T23:23:50+08:00 ] 192.168.43.146 /index.php/home/index/index?signature=6cd5826d26239714533c90476509bd4052714c31&timestamp=1491924229&nonce=1141173095&openid=oMpc_xDBkUN7pzj48PE16YBaWhKY
+ERR: 1054:Unknown column 'oMpc_xDBkUN7pzj48PE16YBaWhKY' in 'where clause'
+ [ SQL语句 ] : SELECT `uid` FROM `studentinfo` WHERE ( openid=oMpc_xDBkUN7pzj48PE16YBaWhKY ) LIMIT 1  
+
+[ 2017-04-11T23:36:30+08:00 ] 192.168.43.146 /index.php/home/index/index?signature=a90be93068c38d5df3a4064bb5cdf062c589dec5&timestamp=1491924988&nonce=946546810&openid=oMpc_xDBkUN7pzj48PE16YBaWhKY
+ERR: 1054:Unknown column 'oMpc_xDBkUN7pzj48PE16YBaWhKY' in 'where clause'
+ [ SQL语句 ] : SELECT `uid` FROM `studentinfo` WHERE ( openid=oMpc_xDBkUN7pzj48PE16YBaWhKY ) LIMIT 1  
+
+[ 2017-04-11T23:39:16+08:00 ] 192.168.43.146 /index.php/home/index/index?signature=f80ee525140e2277ad77b362523ff89045d90008&timestamp=1491925155&nonce=1164994613&openid=oMpc_xDBkUN7pzj48PE16YBaWhKY
+ERR: 1054:Unknown column 'oMpc_xDBkUN7pzj48PE16YBaWhKY' in 'where clause'
+ [ SQL语句 ] : SELECT `uid` FROM `studentinfo` WHERE ( openid=oMpc_xDBkUN7pzj48PE16YBaWhKY ) LIMIT 1  
+
+[ 2017-04-11T23:45:14+08:00 ] 192.168.43.146 /index.php/home/index/index?signature=989afd2d1686544c040def4cfa6be52889ed9202&timestamp=1491925512&nonce=1073107253&openid=oMpc_xDBkUN7pzj48PE16YBaWhKY
+ERR: 1054:Unknown column 'oMpc_xDBkUN7pzj48PE16YBaWhKY' in 'where clause'
+ [ SQL语句 ] : SELECT `uid` FROM `studentinfo` WHERE ( openid=oMpc_xDBkUN7pzj48PE16YBaWhKY ) LIMIT 1  
+
+[ 2017-04-11T23:48:03+08:00 ] 192.168.43.146 /index.php/home/index/test
+ERR: 1054:Unknown column 'oMpc_xDBkUN7pzj48PE16YBaWhKY' in 'where clause'
+ [ SQL语句 ] : SELECT `uid` FROM `studentinfo` WHERE ( openid=oMpc_xDBkUN7pzj48PE16YBaWhKY ) LIMIT 1  
+
+[ 2017-04-11T23:48:41+08:00 ] 192.168.43.146 /index.php/home/index/test
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `issue` WHERE ( id=Array ) 
+
+[ 2017-04-11T23:55:40+08:00 ] 192.168.43.146 /index.php/home/index/test
+ERR: 1054:Unknown column 'wid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `issue` WHERE (  (  `wid` = '11' ) AND (  `wid` = '11' ) AND (  `wid` = '11' ) AND (  `wid` = '1' ) ) 
+

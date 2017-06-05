@@ -1,0 +1,4 @@
+[ 2017-06-04T14:19:11+08:00 ] 127.0.0.1 /index.php/home/workinfo/worklist?code=011nszMs1OCyRp0WFSNs18OlMs1nszMO&state=123
+ERR: 1054:Unknown column 'oMpc_xDBkUN7pzj48PE16YBaWhKY' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `studentinfo` WHERE ( openid=oMpc_xDBkUN7pzj48PE16YBaWhKY ) LIMIT 1  
+

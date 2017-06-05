@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<script>
+    $(document).ready(function(){
+    $('.myTable').DataTable();
+});
+</script>
+<body>
+<volist name="list" id="vo" key="n">
+    <h2 class="sub-header">{$vo.title}<a id="{$vo.id}" onclick="editInfo({$vo.id})" class="btn btn-link">修改</a></h2>
+    <b>发布时间：{$vo.issuetime}</b>
+    <div class="table-responsive">
+        <form action="__URL__/chackResume" method="post">
+            <input name="wid" type="hidden" value="{$vo.id}">
+            <table id="" class="table table-striped table-hover myTable">
+                <thead>
+                    <tr>
+                        <th>序号</th>
+                        <th>姓名</th>
+                        <th>性别</th>
+                        <th>就读院校</th>
+                        <th>联系方式</th>
+                        <th>大家评分</th>
+                        <th>所在区域</th>
+                        <th>是否录用</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <volist name="vo.s" id="s" key="k">
+                    <tr>
+                        <td>{$k}</td>
+                        <td>{$s.uname}</td>
+                        <td>{$s.usex}</td>
+                        <td>{$s.uschool}</td>
+                        <td>{$s.uphone}</td>
+                        <td>{$s.upoint}</td>
+                        <td>{$s.uaddress}</td>
+                        <td>
+                            <label class="radio-inline">
+      <input type="radio" name="{$s.uid}" id="inlineRadio1" value="1"> 录用
+    </label>
+                            <label class="radio-inline">
+      <input type="radio" name="{$s.uid}" id="inlineRadio2" value="0"> 辞退
+    </label>
+                        </td>
+                    </tr>
+                </volist>
+                </tbody>
+                <button type="submit" class="btn pull-right btn-danger">提交</button>
+            </table>
+        </form>
+    </div>
+    <hr>
+</volist>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">修改兼职信息</h4>
+            </div>
+            <div class="modal-body">
+                <form action="__URL__/updata" class="form-horizontal" method="post" role="form">
+                    <input type="hidden" name="wid" id="wid">
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">标题</label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" name="title" id="title"  placeholder="标题">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">工作内容</label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" name="workInfo" id="workinfo" placeholder="工作内容">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">开始时间</label>
+                        <div class="col-sm-4">
+                            <input type="date" class="form-control" name="workStartDate" id="workstartdate" placeholder="工作开始时间">
+                        </div>
+                        <label  class="col-sm-2 control-label">结束时间</label>
+                        <div class="col-sm-4">
+                            <input type="date" class="form-control"  name="workStopDate" id="workstopdate" placeholder="工作结束时间">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">工作地点</label>
+                        <div class="col-sm-7">
+                            <input type="text" name="address" class="form-control" id="address"  placeholder="工作地点">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">工作要求</label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control"  id="request" name="request" placeholder="工作要求">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">工资</label>
+                        <div class="col-lg-2">
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="salary" name="salary" placeholder="工资">
+                            </div>
+                        </div>
+                        <div id="isdalysalary" class="col-lg-2 radio">
+                            <label>
+                                <input type="radio" name="isdalysalary"  value="1" checked>
+                                /天
+                            </label>
+                            <label>
+                                <input type="radio" name="isdalysalary"  value="0">
+                                /小时
+                            </label>
+                        </div>
+                        <!-- /.col-lg-6 -->
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">人数</label>
+                        <div class="col-sm-4">
+                            <div class="input-group">
+                                <input type="text" name="num" id="number" class="form-control" placeholder="人数">
+                                <span class="input-group-addon">人</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">联系人</label>
+                        <div class="col-sm-7">
+                            <input type="text" name="person" id="person" class="form-control"  placeholder="联系人">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">联系电话</label>
+                        <div class="col-sm-7">
+                            <input type="text" name="phone" id="phone" class="form-control"  placeholder="联系电话">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default">提交</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

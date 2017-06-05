@@ -1,0 +1,12 @@
+[ 2017-04-15T16:05:58+08:00 ] 192.168.43.146 /index.php/home/workinfo/worklist?code=041JBX0A1rXfCg05FL3A1gXV0A1JBX0M&state=123
+ERR: 1054:Unknown column 'oMpc_xDBkUN7pzj48PE16YBaWhKY' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `studentinfo` WHERE ( openid=oMpc_xDBkUN7pzj48PE16YBaWhKY ) LIMIT 1  
+
+[ 2017-04-15T16:09:33+08:00 ] 192.168.43.146 /index.php/home/workinfo/worklist?code=0419AZPg0kPfOz1U3VQg0z0YPg09AZPS&state=123
+ERR: 1054:Unknown column 'oMpc_xJAuL9_d10K2zDWsvh4DcC0' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `studentinfo` WHERE ( openid=oMpc_xJAuL9_d10K2zDWsvh4DcC0 ) LIMIT 1  
+
+[ 2017-04-15T16:11:03+08:00 ] 192.168.43.146 /index.php/Home/Workinfo/workSubmit
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `resume` WHERE ( wid=1 and uid= ) LIMIT 1  
+

@@ -1,0 +1,35 @@
+.wrap{
+    background-image: url(../img/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-bottom: 0;
+}
+.banner{
+    color: #d1cecb;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.txt-tip{
+    display:inline-block;
+}
+.txt-tip li{
+    border-left-color: antiquewhite;
+    border-left-style: solid;
+    padding-left: 25px;
+    width: 150px;
+    float: left;
+}
+.txt-tip li p{
+    line-height: 20px;
+    margin-top: 5xp;
+}
+.btn-learn{
+    margin-right: 20%;
+}
+.intro{
+    font-size: 25px;
+    color: red;
+}
+.intro-wrap{
+    background-color: #d0d0d0;
+}

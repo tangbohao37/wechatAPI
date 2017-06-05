@@ -1,0 +1,12 @@
+[ 2017-04-12T00:00:12+08:00 ] 192.168.43.146 /index.php/home/index/test
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `issue` WHERE `id` IN (Array,Array,Array,Array) 
+
+[ 2017-04-12T00:06:24+08:00 ] 192.168.43.146 /index.php/home/index/test
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `issue` WHERE `id` IN (Array,Array) 
+
+[ 2017-04-12T00:10:33+08:00 ] 192.168.43.146 /index.php/home/index/test
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `issue` WHERE (  11 ) AND (  1 ) AND `id` IN (Array,Array) 
+
